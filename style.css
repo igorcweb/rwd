@@ -9,12 +9,21 @@ h1 {
   font-weight: 400;
 }
 
+header h1 {
+  float: left;
+}
+
 a {
   text-decoration: none;
 }
 
 a:hover {
   color: red;
+}
+
+a.portfolio {
+  float: right;
+  margin: 2rem;
 }
 
 li {
@@ -26,4 +35,8 @@ li {
   width: 90%;
   margin: 0 auto;
   max-width: 800px;
+}
+
+.clear  {
+  clear: both;
 }
